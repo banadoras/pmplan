@@ -1,0 +1,41 @@
+.plan {
+  border-left: solid black 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+.plan > h4 {
+  margin-bottom: 10px;
+  border-bottom: solid rgb(139, 139, 139) 1px;
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+}
+
+.plan > textarea {
+  /* width: 90%; */
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  font-size: 16px;
+  flex-grow: 2;
+  min-height: 15rem;
+}
+
+.no-plan {
+  font-size: 20px;
+  color: rgb(180, 180, 180);
+  font-style: italic;
+}
+
+.buttons {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 15px;
+}
+.plan > .buttons > button {
+  padding: 10px;
+  margin: 2px;
+  width: 50%;
+  font-size: 14px;
+}

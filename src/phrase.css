@@ -1,0 +1,35 @@
+.category {
+  border-bottom: solid rgb(139, 139, 139) 0.5px;
+  cursor: pointer;
+  background-color: rgb(235, 235, 235);
+  padding: 5px 10px;
+  display: flex;
+}
+
+.sep {
+  flex-grow: 2;
+}
+
+.phrases {
+  margin: 5px;
+  animation: appear 0.5s linear both;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+input {
+  display: inline-block;
+  margin-right: 10px;
+  height: 16px;
+}
+
+label {
+  display: inline-block;
+}

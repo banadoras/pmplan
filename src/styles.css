@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.title {
+  background-color: rgb(58, 58, 58);
+  color: white;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.main {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  border-bottom: solid rgb(75, 75, 75) 1px;
+  padding: 10px;
+  margin: auto;
+}
+
+.main > div {
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    flex-direction: column;
+  }
+  .plan {
+    border-left: none;
+    /* border-top: black solid 1px; */
+    width: auto;
+    flex-grow: 2;
+  }
+  .plan > textarea {
+    height: 20rem;
+  }
+  .accordion {
+    width: auto;
+  }
+}

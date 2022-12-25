@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav > li {
+  margin: 5px;
+  border: solid black 1px;
+  padding: 5px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: black;
+}

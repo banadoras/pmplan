@@ -1,0 +1,9 @@
+.accordion {
+  border: solid black 0px;
+
+  text-align: left;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width:25%; */
+  flex-grow: 1;
+}
